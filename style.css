@@ -5,13 +5,43 @@
 .cabecalho{
     padding: 15px 25px;
     display: flex;
-    justify-contet: space-between;
-    aling-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color:deeppink
 }
 .cartao{
     width: 260px;
     height: 200px;
 }
 .cartao-imagem{
-    width: 100;
+    width: 100px;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+main{
+    flex: 1;
+}
+.cabecalho-link{
+    color:deeppink
+    text-decoration: nome;
+}
+h1{
+    color:black
+    font-size: 24px;
+}
+footer{ 
+    background-color:darkgray
+    padding: 15px 25px:
+    color:
+}
+    .cartao-interno{
+        position: abolute;
+        border-radius: 12px;
+ }
+ .cartao-frente, .caratao-verso{
+    position: abolute;
+    border-
+ }
