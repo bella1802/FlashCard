@@ -20,9 +20,13 @@ body{
     display: flex;
     flex-direction: column;
     min-width: 100vh;
+    background-color:black
 }
 main{
     flex: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .cabecalho-link{
     color:deeppink
@@ -34,14 +38,21 @@ h1{
 }
 footer{ 
     background-color:darkgray
-    padding: 15px 25px:
-    color:
+    padding; 15px 25px:
+    color:bisque
 }
     .cartao-interno{
         position: abolute;
+
         border-radius: 12px;
  }
  .cartao-frente, .caratao-verso{
-    position: abolute;
-    border-
+    position: absolute;
+    border-radius: 12px;
+    box-shadow:0 6px 12px rgb(red, green, blue) ();
+    backface-visibility: hidden;
  }
+ .cartao-verso{
+    transform: rotateY(180deg);
+ }
+ .cartao:hover
